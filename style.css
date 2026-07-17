@@ -8,3 +8,36 @@
 }
 
 
+.main {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image, img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.about {
+    text-align: left;
+    border: 1px solid black;
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.icons img {
+    width: 30px;
+    height: 30px;
+
+}
